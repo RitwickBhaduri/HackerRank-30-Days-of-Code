@@ -1,9 +1,11 @@
 #include <iostream>
+#include <queue>
+#include <stack>
 
 using namespace std;
 
 class Solution {
-    private:
+private:
     queue<char> q;
     stack<char> s;
 
@@ -26,11 +28,9 @@ public:
 
     void enqueueCharacter(char ch) {
         q.push(ch);
-  
-  }
-
-
+    }
 };
+
 
 int main() {
     // read the string s.
